@@ -189,12 +189,14 @@ body {
 	display: inline;
 }
 .page-header .top-nav ul li a {
-	color: inherit;
-	font-size: 14px;
-	line-height: normal;
-	margin-left: 35px;
-	text-decoration: none;
-	text-transform: uppercase;
+    color: #45ac9d;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: normal;
+    margin-left: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 .main-content {
 	padding: 55px 47px 0 0;
@@ -209,6 +211,8 @@ body {
 }
 
 /* BLOG styles */
+
+
 .post-entry {
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 30px;
@@ -540,6 +544,7 @@ body {
 	display: none;
 }
 .home .main-content {
+	padding: 25px 47px 0 0;
 	width: 100%;
 	float: none;
 	overflow: hidden;
@@ -548,7 +553,7 @@ body {
 	width: 550px;
 	background: #ffffff;
 	float: right;
-	padding: 50px;
+	padding: 20px 50px;
 }
 .home .content h1 {
 	font: 700 36px 'Montserrat';
